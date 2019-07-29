@@ -1,0 +1,68 @@
+.story-hintergrund {
+  background-image: url("/assets/toolkit/images/story-sprachlos-studieren/cover-3klein.jpg");
+  background-size: cover;
+  background-position: top;
+  filter: blur(10px);
+  //  -webkit-filter: blur(8px);
+  min-height: 580px;
+  //  margin: -15px;
+  //  opacity: 0.9;
+}
+
+.story-hintergrund-cover{
+  margin-top: -485px;
+  min-height: 490px;
+}
+
+//@include media-breakpoint-down(sm) {
+//  .story-hintergrund {
+//    min-height: 600px;
+//  }
+//
+//  .story-hintergrund-cover {
+//    margin-top: -570px;
+//    min-height: 540px;
+//  }
+//}
+
+.story-hintergrund-content{
+  background-color: #efefef;
+}
+
+.story-content {
+  background-color: #918175;
+
+  .story-kapitel-zahl {
+    background-color: #4E5C3F;
+    padding: 30px 0 0 0;
+    text-align: center;
+    font-family: LondonMM;
+    color: white;
+    font-size: 20px;
+  }
+
+  .story-kapitel-titel {
+    background-color: #4E5C3F;
+    padding: 0 0 75px 0;
+    text-align: center;
+    font-family: LondonMM;
+    color: white;
+    font-size: 60px;
+  }
+
+  .story-twitter {
+    .twitter-tweet.twitter-tweet-rendered {
+      margin: 0 auto;
+    }
+  }
+
+  @import "story-parts/text";
+  @import "story-parts/hervorhebungen";
+  @import "story-parts/dialog";
+  @import "story-parts/video";
+  @import "story-parts/bild";
+  @import "story-parts/bild-background";
+
+}
+
+

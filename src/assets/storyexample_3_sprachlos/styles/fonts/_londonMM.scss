@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "LondonMM";
+  src:
+          //url("fonts/Samplino.eot?") format("eot"),
+  //url("fonts/Samplino.woff2") format("woff2"),
+  //url("fonts/Samplino.woff") format("woff"),
+  url("/assets/toolkit/fonts/LondonMM.ttf") format("truetype");
+  //url("fonts/Samplino.svg#Samplino") format("svg");
+}
+
+$font-family-londonMM: "LondonMM";

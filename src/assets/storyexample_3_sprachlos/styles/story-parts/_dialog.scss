@@ -1,0 +1,61 @@
+.story-dialog {
+  margin: 50px 0 50px 0;
+  padding: 15px;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 1px;
+
+  p {
+    color: #ffffff;
+  }
+
+  //Hintergrund Chatbereich Person B
+  &.story-dialog-rechts {
+     background-color: #667F43;
+     border-color: #4E5C3F;
+   }
+
+  //Hintergrund Chatbereich Person A
+  &.story-dialog-links {
+    background-color: #4E5C3F;
+    border-color: #667F43;
+  }
+
+  //Hintergrund Chatbereich Person C
+  &.story-dialog-links-2 {
+    background-color: #a9b9c0;
+    border-color: #667F43;
+  }
+
+  //überschreibt story-dialog
+  &.story-dialog-kein-abstand {
+    margin: 0px;
+  }
+}
+
+
+
+//Hintergrund Gedankenblase Person B
+.story-gedanken-rechts {
+  background-color: #667F43;
+  border-radius: 130px;
+  padding: 35px 35px 13px 35px;
+  float: right;
+}
+
+.story-gedanken-kreis {
+  background-color: #667F43;
+  float: right;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+}
+
+.story-gedanken-kreis-klein {
+  background-color: #667F43;
+  float: right;
+  margin: 7px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+}

@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "LondonBetween";
+  src:
+          //url("fonts/Samplino.eot?") format("eot"),
+  //url("fonts/Samplino.woff2") format("woff2"),
+  //url("fonts/Samplino.woff") format("woff"),
+    url("/assets/toolkit/fonts/LondonBetween.ttf") format("truetype");
+  //url("fonts/Samplino.svg#Samplino") format("svg");
+}
+$font-family-londonBetween: "LondonBetween";
